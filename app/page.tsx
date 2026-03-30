@@ -5,6 +5,7 @@ import UserCard from "./components/userCard"
 import Count from "./hooks"
 import Counter from "./components/Counter"
 import UseState from "./components/useState"
+import UseEffect from "./useEffect"
 function Home() {
   return (
     <div>
@@ -31,6 +32,10 @@ function Home() {
         </div>
         <div>
             <UseState />
+        </div>
+
+        <div>
+            <UseEffect />
         </div>
         </div>
     )
